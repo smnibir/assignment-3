@@ -7,6 +7,11 @@ body{
     font-size: 16px;
     color: #ffffff;
 }
+.custom-btn:hover{
+    background-color: #712cf9;
+    font-size: 16px;
+    color: #ffffff;
+}
 .overlay-img img{
     filter: brightness(50%);
 }
@@ -18,8 +23,37 @@ body{
     text-align: center;
     bottom: 0;
 }
-@media screen and (min-width:700px) {
+.course-price{
+    margin: 0;
+    color:#712cf9;
+}
+.section-spacing{
+    padding: 100px 0;
+}
+.img-courses img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+.section-inner-padding{
+    padding: 30px;
+}
+.ready-to-join{
+    text-align: center;
+}
+@media screen and (min-width:768px) {
     .carousel-caption-modified h5{
         font-size: 3.2rem;
+    }
+    .img-courses img{
+        height: 200px;
+        width: 200px;
+
+    } 
+    .section-inner-padding{
+        padding: 50px;
+    }
+    .ready-to-join{
+        text-align: left;
     }
 }
